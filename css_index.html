@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;700&display=swap" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
@@ -44,7 +46,7 @@
                     <div class="photo-placement">
                         <ul>
                             <li><img src="img/GarryBanks_3-1.jpg" alt=""></li>
-                            <li><img src="img/GarryBanks_3-2.jpg" alt=""></li>
+                            
                         </ul>
                     </div>
                     <h1>GARRY BANKS</h1>
@@ -63,26 +65,55 @@
             </div>
             <nav class="menu-bar">
                 <ul class="tabs">
-                    <li>
-                        <a href="" class="tab-about"><i><i class="fa fa-smile-beam"></i></i>
-                            ABOUT
-                        </a>
-                        <a href=""><i><i class="fas fa-user"></i></i>
+                    <li class="imenu">
+                        <a href="#profile" class="tab-bio active"><i><i class="fa fa-user"></i></i>
                             PROFILE
                         </a>
-                        <a href=""><i><i class="fa fa-file"></i></i>
+                    </li>
+
+                    <li class="imenu">
+                        <a href="#about"><i><i class="fas fa-smile-beam"></i></i>
+                            ABOUT
+                        </a>
+                    </li>
+
+                    <li class="imenu">
+                        <a href="#resume"><i><i class="fa fa-file"></i></i>
                             RESUME
                         </a>
-                        <a href=""><i><i class="fa fa-address-book"></i></i>
+                    </li>
+
+                    <li class="imenu">
+                        <a href="#portfolio"><i><i class="fa fa-address-book"></i></i>
                             PORFOLIO
                         </a>
-                        <a href=""><i><i class="fa fa-envelope-open-text"></i></i>
+
+                    </li>
+
+                    <li class="imenu">
+                        <a href="#contact"><i><i class="fa fa-envelope-open-text"></i></i>
                             CONTACT
                         </a>
-                       
+
                     </li>
                 </ul>
             </nav>
+
+            <section id="about">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, labore.</p>
+            </section>
+
+            <section id="resume">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, a?</p>
+            </section>
+
+            <section id="portfolio">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, explicabo?</p>
+            </section>
+
+            <section id="contact">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, minima.</p>
+            </section>
         </section>
         <footer><div class="copyright">Copyright &copy; 2021 Garry Banks</div></footer>
     </section>
@@ -92,5 +123,12 @@
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
    
    <script src="js/main.js"></script>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.easytabs/3.2.0/jquery.easytabs.min.js"></script>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/1.5.25/jquery.isotope.min.js"></script>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.caroufredsel/6.2.1/jquery.carouFredSel.packed.js"></script>
+   
 </body>
 </html>

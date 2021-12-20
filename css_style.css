@@ -2,6 +2,13 @@ body{
     background-image: url(./img/bg-body.jpg); //rubicks cube pic
 }
 
+#container{
+    margin: 0 auto;
+    width: 1260px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
 #profile{
     background: rgba(127, 4, 180, 0.568);
     background-image: url(./img/header-shadow.png);
@@ -12,7 +19,7 @@ body{
 
 .bio{
     float: left;
-    margin-top: 30px;
+    margin-top: 20px;
     width: 790px;
     margin-left: 20px;
 }
@@ -20,9 +27,9 @@ body{
 .bio .photo-placement{
     float: left;
     background: url(./img/photo-inner.png) no-repeat;
-    width: 350x;
+    width: 400x;
     height: 375px;
-    padding: 40px 20 0 19px;
+    padding: 12px 30px 0px 0px;
 }
 
 .bio h1{
@@ -45,7 +52,7 @@ body{
     font-size: 20px;
     margin-top: 13px;
     color: white;
-    font-weight: 520px;
+    font-weight: 420px;
     line-height: 35px;
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -98,17 +105,13 @@ header{
 
 span.elemental-text{
     position:relative;
-    left: 45px;
+    left: 220px;
     color: white;
     padding: 2px 9px;
     font-size: 22px;
     cursor: pointer;
     top: 10px;
     border-radius: 70px;
-}
-
-i.fa.fa-bars{
-    color: white !important;
 }
 
 ul.networkicons{
@@ -127,7 +130,7 @@ ul.networkicons{
     line-height: 25px;
     border: none;
     box-shadow: 0 0 0 0 rgb(101, 100, 100);
-    background-color: rgba(53, 4, 46, 0.637);
+    background-color: indigo;
     cursor: pointer;
     color: white;
     font-size: 20px;
@@ -151,7 +154,7 @@ ul.networkicons{
 
 .tabs li > a{
     padding-top: 28px;
-    width: 215px;
+    width: 120px;
     display: inline-block;
     background-repeat: no-repeat;
     font-size: 15px;
@@ -160,21 +163,50 @@ ul.networkicons{
     font-weight: 580;
     text-transform: uppercase;
     font-family: 'Roboto Condensed', sans-serif;
-    line-height: 35px;
+    line-height: 15px;
     text-decoration: none;
+    margin-right: 90px;
 }
 
-.tabs li.active{
+a.tab-bio.active{
     background: url(./img/tab-hover.png) no-repeat;
+    
 }
 
-.tabs li.active a{
-    color: black;
+a.tab-bio.active i{
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce{
+    0%, 20%, 50%, 80%, 100%{
+        transform: translateY(0)px;
+    }
+    40%{
+        transform: translateY(-0px);
+    }
+    60%{
+        transform: translateY(-10px);
+    }
 }
 
 .tabs li > a > i{
     font-size: 55px;
     display: block;
     margin-bottom: 5px;
+}
+
+#insignia{
+    float: left;
+    overflow: hidden;
+    margin-left: 10px;
+   
+}
+
+#insignia h4{
+    color: indigo;
+    line-height: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin-left: 10px;
 }
 
