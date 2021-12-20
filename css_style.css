@@ -135,7 +135,7 @@ ul.networkicons{
 
 .menu-bar{
     height: 100px;
-    background-color: #efefef;
+    background-color: #eff0e9;
     position: relative;
     padding-left: 130px;
     padding-right: 130px;
@@ -151,7 +151,7 @@ ul.networkicons{
 
 .tabs li > a{
     padding-top: 28px;
-    width: 115px;
+    width: 215px;
     display: inline-block;
     background-repeat: no-repeat;
     font-size: 15px;
