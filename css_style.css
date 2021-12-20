@@ -1,8 +1,180 @@
 body{
-    background-image: url();
+    background-image: url(./img/bg-body.jpg); //rubicks cube pic
 }
 
 #profile{
-    background: rebeccapurple;
-    background-image: url(.jpg);
+    background: rgba(127, 4, 180, 0.568);
+    background-image: url(./img/header-shadow.png);
+    background-position: center bottom;
+    background-repeat: repeat-x;
+    overflow: hidden;
 }
+
+.bio{
+    float: left;
+    margin-top: 30px;
+    width: 790px;
+    margin-left: 20px;
+}
+
+.bio .photo-placement{
+    float: left;
+    background: url(./img/photo-inner.png) no-repeat;
+    width: 350x;
+    height: 375px;
+    padding: 40px 20 0 19px;
+}
+
+.bio h1{
+    font-weight: 600;
+    color: white;
+    line-height: 40px;
+    margin-top: 8px;
+    margin-left: -30px;
+}
+
+.bio h3{
+    margin-top: 5px;
+    font-size: 18px;
+    color: white;
+    line-height: 18px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.bio p{
+    font-size: 20px;
+    margin-top: 13px;
+    color: white;
+    font-weight: 520px;
+    line-height: 35px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.my-info{
+    float: left;
+    margin-top: 50px;
+    width: 230px;
+    min-height: 60px;
+    margin-left: 10px;
+    background: url(./img/personal-info-sep.png) no-repeat;
+    left: top;
+    padding: 20px 0 19px 20px;
+}
+
+.my-info li{
+    line-height: 36px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    float: left;
+    width: 253px;
+
+}
+
+.my-info li label{
+    color: white;
+    float: left;
+    padding: 4px 7px;
+    font-weight: 500;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.my-info li span{
+    float: right;
+    width: 220px;
+    padding-top: 4px;
+    font-weight: 400px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Robot Condensed', sans-serif;
+}
+
+header{
+    position: relative;
+    overflow: visible;
+}
+
+span.elemental-text{
+    position:relative;
+    left: 45px;
+    color: white;
+    padding: 2px 9px;
+    font-size: 22px;
+    cursor: pointer;
+    top: 10px;
+    border-radius: 70px;
+}
+
+i.fa.fa-bars{
+    color: white !important;
+}
+
+ul.networkicons{
+    opacity: 0;
+    top: -1px;
+    position: relative;
+    transition: all ease 1s;
+    z-index: -1;
+    left: -7px;
+}
+
+.pulse-button{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    line-height: 25px;
+    border: none;
+    box-shadow: 0 0 0 0 rgb(101, 100, 100);
+    background-color: rgba(53, 4, 46, 0.637);
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
+
+.menu-bar{
+    height: 100px;
+    background-color: #efefef;
+    position: relative;
+    padding-left: 130px;
+    padding-right: 130px;
+
+}
+
+.tabs{
+    height: 117px;
+    position: absolute;
+    margin-top: -14px;
+    z-index: 100;
+}
+
+.tabs li > a{
+    padding-top: 28px;
+    width: 115px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    font-size: 15px;
+    color: indigo;
+    text-align: center;
+    font-weight: 580;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 35px;
+    text-decoration: none;
+}
+
+.tabs li.active{
+    background: url(./img/tab-hover.png) no-repeat;
+}
+
+.tabs li.active a{
+    color: black;
+}
+
+.tabs li > a > i{
+    font-size: 55px;
+    display: block;
+    margin-bottom: 5px;
+}
+
