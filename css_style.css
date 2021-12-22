@@ -1,5 +1,5 @@
 body{
-    background-image: url(./img/bg-body.jpg); /*rubicks cube pic*/
+    background-image: url(./img/B&W\ cube.png);
 }
 
 #container{
@@ -9,8 +9,12 @@ body{
     margin-top: 30px;
 }
 
+#content{
+    background-color: white;
+}
+
 #profile{
-    background: rgba(127, 4, 180, 0.568);
+    background: indigo;
     background-image: url(./img/header-shadow.png);
     background-position: center bottom;
     background-repeat: repeat-x;
@@ -28,7 +32,7 @@ body{
     float: left;
     background: url(./img/photo-inner.png) no-repeat;
     width: 400x;
-    height: 375px;
+    height: 400px;
     padding: 12px 30px 0px 0px;
 }
 
@@ -105,7 +109,6 @@ header{
 
 span.elemental-text{
     position:relative;
-    left: 220px;
     color: white;
     padding: 2px 9px;
     font-size: 22px;
@@ -120,19 +123,19 @@ ul.networkicons{
     position: relative;
     transition: all ease 1s;
     z-index: -1;
-    left: -7px;
+    right: 7px;
 }
 
-.pulse-button{
+.share-button{
     position: relative;
     width: 35px;
     height: 45px;
     line-height: 45px;
     border: none;
-    box-shadow: 0 0 0 0 rgb(101, 100, 100);
-    background-color: rgb(145, 102, 204);
-    cursor: pointer;
+    box-shadow: 0 0 0 0 black;
+    background-color: white;
     color: indigo;
+    cursor: pointer;
     font-size: 20px;
 }
 
@@ -157,13 +160,13 @@ ul.networkicons{
     height: 116px;
 }
 
-.tabs li > a{
+.tabs li  a{
     padding-top: 28px;
     width: 120px;
     display: inline-block;
     background-repeat: no-repeat;
     font-size: 15px;
-    color: indigo;
+    color: lightgrey;
     text-align: center;
     font-weight: 580;
     text-transform: uppercase;
@@ -173,12 +176,20 @@ ul.networkicons{
     margin-right: 90px;
 }
 
-a.tab-bio.active{
+.tabs li.active{
     background: url(./img/tab-hover.png) no-repeat;
-    color: indigo;
+    
 }
 
-a.tab-bio.active i{
+.tabs li.active a{
+        color: indigo;
+}
+
+/*.tabs li.active{
+    color: indigo;
+}*/
+
+a.tab-bio.active > i{
     animation: bounce 2s infinite;
 }
 
@@ -208,7 +219,7 @@ a.tab-bio.active i{
 }
 
 #insignia h4{
-    color: indigo;
+    color: rgb(113, 62, 145);
     line-height: 15px;
     font-family: 'Oswald', sans-serif;
     font-size: 30px;

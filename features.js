@@ -11,7 +11,7 @@ jQuery(document).ready(function(){
     });
 
     $('.tabs-profile').click(function(){
-        $insignia.fadeOut('slow');
+        $Insignia.fadeOut('slow');
     });
 
     var $content    =$('#content');
@@ -26,7 +26,7 @@ jQuery(document).ready(function(){
         tabActiveClass :'active',
     });
 
-    $conetent.find('.tabs li a').hover(function(){
+    $content.find('.tabs li a').hover(function(){
         $(this).stop().animate({ marginTop: "-7px"}, 300);
     },function(){
         $(this).stop().animate({ marginTop: '0px'}, 400);
