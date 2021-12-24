@@ -119,7 +119,7 @@ span.elemental-text{
 
 ul.networkicons{
     opacity: 0;
-    top: -1px;
+    top: -0px;
     position: relative;
     transition: all ease 1s;
     z-index: -1;
@@ -133,7 +133,7 @@ ul.networkicons{
     line-height: 45px;
     border: none;
     box-shadow: 0 0 0 0 black;
-    background-color: white;
+    background-color: lightgrey;
     color: indigo;
     cursor: pointer;
     font-size: 20px;
@@ -219,7 +219,7 @@ a.tab-bio.active > i{
 }
 
 #insignia h4{
-    color: rgb(113, 62, 145);
+    color: white;
     line-height: 15px;
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
