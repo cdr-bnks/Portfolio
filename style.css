@@ -46,14 +46,14 @@ body{
 
 .bio h3{
     margin-top: 5px;
-    font-size: 18px;
+    font-size: 25px;
     color: white;
-    line-height: 18px;
+    line-height: 30px;
     font-family: 'Oswald', sans-serif;
 }
 
 .bio p{
-    font-size: 20px;
+    font-size: 23px;
     margin-top: 13px;
     color: white;
     font-weight: 420px;
@@ -74,8 +74,8 @@ body{
 
 .my-info li{
     line-height: 36px;
-    font-size: 15px;
-    margin-bottom: 20px;
+    font-size: 19px;
+    margin-bottom: 30px;
     overflow: hidden;
     float: left;
     width: 253px;
@@ -93,8 +93,8 @@ body{
 }
 
 .my-info li span{
-    float: right;
-    width: 220px;
+    float: left;
+    width: 200px;
     padding-top: 4px;
     font-weight: 400px;
     color: white;
@@ -211,18 +211,23 @@ a.tab-bio.active > i{
     margin-bottom: 5px;
 }
 
-#insignia{
-    float: left;
-    overflow: hidden;
+#Insignia{
+    display: inline-block;
+    background: rgba(245, 245, 245, 0.61);
     margin-left: 10px;
-   
+    border-style: hidden;
+    border-radius: 25px;
 }
 
-#insignia h4{
-    color: white;
-    line-height: 15px;
+#Insignia h2{
+    color: indigo;
     font-family: 'Oswald', sans-serif;
-    font-size: 30px;
-    margin-left: 10px;
+    font-size: 20px;
+}
+
+#Insignia h4{
+    color: rgb(8, 63, 95);
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
 }
 
