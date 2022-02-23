@@ -14,6 +14,23 @@ jQuery(document).ready(function(){
         $Insignia.fadeOut('slow');
     });
 
+    $('#indigo-color').click(function(e){
+        $('.main-wraper-resume').attr("id", "indigo");
+    });
+
+ $('#red-color').click(function(e){
+        $('.main-wraper-resume').attr("id", "red");
+    });
+
+ $('#green-color').click(function(e){
+        $('.main-wraper-resume').attr("id", "green");
+    });
+
+ $('#gold-color').click(function(e){
+        $('.main-wraper-resume').attr("id", "gold");
+    });
+
+
     var $content    =$('#content');
 
     $content.easytabs({
